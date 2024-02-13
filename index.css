@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    font-family: 'UbuntuRegular', sans-serif;
+}
+
+.white-section {
+    flex: 1;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10%;
+    align-self: center; /* Añadido para centrar la imagen verticalmente al 50% */
+}
+
+.orange-section {
+    flex: 1;
+    background-color: #ffdab9; /* Naranja pastel */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
+button {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    padding: 15px 30px; /* Ajustado el relleno del botón para más espacio */
+    font-size: 16px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+button:hover {
+    background-color: #ffdab9; /* Color negro al hacer hover */
+}
+
+button.download-button {
+    top: 20px;
+    right: 30px;
+    padding: 15px 30px;
+}
+
+button.view-button {
+    top: 80px;
+    right: 30px;
+    padding: 15px 54px;
+}
+
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: url('fonts/Ubuntu-Regular.ttf') format('truetype'); /* Ajusta la ruta a tu archivo de fuente */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UbuntuBold';
+    src: url('fonts/Ubuntu-Bold.ttf') format('truetype'); /* Ajusta la ruta a tu archivo de fuente */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UbuntuMedium';
+    src: url('fonts/Ubuntu-Medium.ttf') format('truetype'); /* Ajusta la ruta a tu archivo de fuente */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UbuntuItalic';
+    src: url('fonts/Ubuntu-Italic.ttf') format('truetype'); /* Ajusta la ruta a tu archivo de fuente */
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1.nombre {
+    font-size: 4em;
+    margin-bottom: -10px; /* Mover el texto hacia arriba 100px */
+}
+
+p.subtitulo {
+    font-size: 1.8em;
+    font-family: 'UbuntuItalic', sans-serif;
+}
+
+p.email {
+    font-family: 'UbuntuRegular', sans-serif; /* Ajusta el nombre de la otra fuente */
+    margin-top: 100px; /* Añadir espacio entre el nombre y el subtitulo */
+    font-size: 1.3em;
+}
+
+p.telefono {
+    font-family: 'UbuntuRegular', sans-serif; /* Ajusta el nombre de la otra fuente */
+    font-size: 1.3em;
+}
+
+p.direccion {
+    font-family: 'UbuntuRegular', sans-serif; /* Ajusta el nombre de la otra fuente */
+    font-size: 1.3em;
+    margin-bottom: 50px; /* Añadir espacio entre la dirección y el pie de página */
+}
+
+p.redes {
+    font-family: 'UbuntuRegular', sans-serif; /* Ajusta el nombre de la otra fuente */
+    font-size: 1.3em;
+}
+
+.orange-section .text-container a {
+    color: #000000; /* Cambiado el color del texto de los enlaces a negro */
+    text-decoration: underline; /* Mantener el subrayado */
+    margin-right: 10px; /* Añadido margen entre los enlaces */
+}
+
+.orange-section .text-container ul {
+    list-style: none; /* Quitar los puntos de la lista */
+    padding: 0; /* Eliminar el relleno predeterminado de la lista */
+    margin: 0; /* Eliminar el margen predeterminado de la lista */
+}
+
+.orange-section .text-container ul li {
+    display: inline; /* Mostrar los elementos li en línea */
+    margin-right: 10px; /* Añadir un espacio entre los elementos li */
+}
+
+.text-container p span.label {
+    font-weight: bold; /* Hacer que el texto antes de los dos puntos esté en negrita */
+    margin-right: 5px; /* Añadir un espacio entre el texto en negrita y los dos puntos */
+}
+
+.icon {
+    width: 20px; /* Ajusta el tamaño según sea necesario */
+    height: 20px;
+    margin-left: 5px; /* Añade un espacio entre el texto y el icono */
+}
+
+.linkedin-icon, .github-icon, .twitter-icon {
+    width: 20px; /* Ajusta el tamaño según sea necesario */
+    height: 20px;
+    margin-left: 5px; /* Añade un espacio entre el texto y el icono */
+}
+
+/* Agrega este estilo para centrar el texto con respecto al icono */
+.orange-section .text-container ul li {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+/* Agrega este estilo para ajustar el tamaño de los iconos */
+.orange-section .text-container ul li img {
+    /*Mueve el texto hacia arriba 10px */
+    width: 30px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    margin-right: 10px; /* Añade un pequeño espacio entre el icono y el texto */
+    margin-bottom: 10px;
+}
