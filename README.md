@@ -1,10 +1,4 @@
-Repository of PictoPark WEB
-
-Comandos: 
-```bash
-git pull origin main
-git push origin NAME
-```
+Repository of CV WEB
 
 > [!IMPORTANT]  
 > Ejecucion con el comando:
