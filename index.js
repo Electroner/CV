@@ -14,6 +14,22 @@ document.addEventListener("DOMContentLoaded", function () {
       // Simula un clic en el enlace
       link.click();
   });
+
+  // Selecciona el botón de descarga
+  const downloadPrintButton = document.querySelector('.download-print-button');
+
+  // Agrega un evento de clic al botón
+  downloadPrintButton.addEventListener('click', function () {
+      // Crea un enlace temporal
+      const link = document.createElement('a');
+
+      // Establece la URL del archivo a descargar
+      link.href = 'CV_Print.pdf'; // Ajusta el nombre del archivo según sea necesario
+      link.download = 'CV Impresión Carlos López Martínez.pdf'; // Ajusta el nombre del archivo de descarga
+
+      // Simula un clic en el enlace
+      link.click();
+  });
 });
 
 document.addEventListener("DOMContentLoaded", function () {

@@ -56,13 +56,19 @@ button:hover {
 button.download-button {
     top: 20px;
     right: 30px;
+    padding: 15px 67px;
+}
+
+button.download-print-button {
+    top: 80px;
+    right: 30px;
     padding: 15px 30px;
 }
 
 button.view-button {
-    top: 80px;
+    top: 140px;
     right: 30px;
-    padding: 15px 54px;
+    padding: 15px 92px;
 }
 
 @font-face {
