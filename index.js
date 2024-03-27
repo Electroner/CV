@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Crea un enlace temporal
       const link = document.createElement('a');
 
-      // Establece la URL del archivo a descargar
+      // Establece la URL 1del archivo a descargar
       link.href = 'CV.pdf'; // Ajusta el nombre del archivo según sea necesario
       link.download = 'CV Carlos López Martínez.pdf'; // Ajusta el nombre del archivo de descarga
 
