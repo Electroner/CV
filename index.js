@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Selecciona el botón de descarga
-  const downloadPrintButton = document.querySelector('.download-print-button');
+  const downloadPrintButton = document.querySelector('.download-eng-button');
 
   // Agrega un evento de clic al botón
   downloadPrintButton.addEventListener('click', function () {
@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
       const link = document.createElement('a');
 
       // Establece la URL del archivo a descargar
-      link.href = 'CV_Print.pdf'; // Ajusta el nombre del archivo según sea necesario
-      link.download = 'CV Impresión Carlos López Martínez.pdf'; // Ajusta el nombre del archivo de descarga
+      link.href = 'CV_ENG.pdf'; // Ajusta el nombre del archivo según sea necesario
+      link.download = 'CV Inglés Carlos López Martínez.pdf'; // Ajusta el nombre del archivo de descarga
 
       // Simula un clic en el enlace
       link.click();
